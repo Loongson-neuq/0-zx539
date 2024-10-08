@@ -7,8 +7,8 @@ struct Result {
 void CompareThreeNumbers(int a, int b, int c, Result &result)
 {
     cin >> a >> b >> c;
-    result.min =
-    result.mid =
-    result.max =
+    result.min =;
+    result.mid =;
+    result.max =;
                                                // 在这里完成你的代码
 }
