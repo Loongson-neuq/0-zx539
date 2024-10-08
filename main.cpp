@@ -1,16 +1,33 @@
-#include ".assignment/test.h"           // 比较三个数的大小
-struct Result {
-    int min;
-    int mid;
+#include ".assignment/test.h"
+using namespace std;
+struct
+{
+    int min; 
+    int  mid;
     int max;
 };
-void CompareThreeNumbers(int a, int b, int c, Result &result)
+struct Result result;
+
+// 比较三个数的大小
+void CompareThreeNumbers(int a, int b, int c, Result& result)
 {
-    a=1;
-    b=3;
-    C=6;
-    result.min =;
-    result.mid =;
-    result.max =;
-                                               // 在这里完成你的代码
+    // 在这里完成你的代码
+    cin >> a >> b >> c;
+    if (a > b > c)
+        min = c; mid = b; max = a;
+    else if (a > c > b)
+        min = b; mid = c; max = a;
+    else if (b > a > c)
+        min = c; mid = a; max = b;
+    else if (b > c > a)
+        min = a; mid = c; max = b;
+    else if (c> a > b)
+       min = b; mid = a; max = c;
+    else if (c > b> a)
+       min = a; mid = b; max = c;
+    result.min = min;
+    result.mid = mid;
+    result.max = max;
 }
+
+ 
