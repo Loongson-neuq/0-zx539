@@ -6,7 +6,9 @@ struct Result {
 };
 void CompareThreeNumbers(int a, int b, int c, Result &result)
 {
-    cin >> a >> b >> c;
+    a=1;
+    b=3;
+    C=6;
     result.min =;
     result.mid =;
     result.max =;
